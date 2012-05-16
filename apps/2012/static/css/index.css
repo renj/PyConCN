@@ -51,7 +51,7 @@
 
 h1{font-family:Stencil,"Helvetica Neue",Helvetica,Arial,sans-serif;}
 
-.underhero h2 {border:none; text-align:right; padding:0;}
+.underhero h2 {border:none; text-align:left; padding:0;}
 .underhero {margin-bottom:10px; padding-bottom:10px; border-bottom:1px solid #EEEEEE;}
 .underhero img{border:1px solid #FFF;}
 .underhero img:hover{border:1px solid #EEEEEE;}

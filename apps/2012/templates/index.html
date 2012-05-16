@@ -22,14 +22,18 @@
                         <img src="{{=url_for_static('images/iOSConChina.png')}}" alt="iOSCon China 2012 Logo" width="200" />
                     </div>
                     <div class="span-two-thirds" style="width:600px; text-align:right;">
-                        <h1 style="border:none; padding-bottom:0;">iOSCon China 2012</h1>
+                        <h1 style="border:none; padding-bottom:0; font-size:46px;">中国推荐系统大会2012</h1>
+						<br/>
+						<br/>
                         <p>May 27, 2012 9:30 AM - 5:30 PM</p>
                         <p>Shanghai, China</p>
                         <p>Total number of seats: 300</p>
                         <p>Seats still available.</p>
                     </div>
                     <br />
+					<!--
                     <p style="text-align:right;"><a target="_blank" class="btn primary large" href="http://e.gensee.com/l_72a754" onClick="_gaq.push(['_trackEvent', 'LiveButton', 'Click', '{{=request.path}}_banner1_'+this.href]);">现场直播 &raquo;</a></p>
+					-->
                 </div><!--END grid-->
             </div><!--END hero-content-->
             
@@ -74,10 +78,13 @@
     
     <div class="row show-grid underhero">
         <div class="span3"><h2 style="margin-top:10px;">大会赞助商</h2></div>
-        <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://www.kic.net.cn/?utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=ioscon2012"><img style="margin-top:10px;" src="{{=url_for_static('http://www.kic.net.cn/Portals/_default/Skins/KI/images/logo.jpg')}}" alt="kic" width="150" /></a></div>
         <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://www.google.com"><img style="margin-top:10px;" src="{{=url_for_static('images/sponsors/google.png')}}" alt="Google" width="150" /></a></div>
         <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://www.dianping.com"><img style="margin-top:10px;" src="{{=url_for_static('images/sponsors/dianping.jpg')}}" alt="dianping" width="150" /></a></div>
         <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://www.ituring.com.cn/?utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=ioscon2012"><img style="margin-top:10px;" src="{{=url_for_static('images/sponsors/turingbook.gif')}}" alt="turingbook" width="150" /></a></div>
+        <div class="span3"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://www.taobao.com"><img style="margin-top:10px;" src="{{=url_for_static('images/sponsors/taobao.png')}}" alt="taobao" width="150" /></a></div>
+		</div>
+    <div class="row show-grid underhero">
+        <div class="span3" style="margin-left:190px;"><a target="_blank" onClick="recordOutboundLink(this, 'SponsorLink');" href="http://www.kic.net.cn/?utm_source=topgeek&utm_medium=sponsor_link&utm_campaign=ioscon2012"><img style="margin-top:10px;" src="{{=url_for_static('http://www.kic.net.cn/Portals/_default/Skins/KI/images/logo.jpg')}}" alt="kic" width="150" /></a></div>
     </div><!--END grid-->
     
     <h2 style="margin-top:10px; display:inline-block; border:none;">演讲嘉宾</h2><small>&nbsp;&nbsp;<a href="/2012/schedule">查看详细演讲内容及日程安排 &raquo;</a></small>
@@ -116,6 +123,7 @@
         <div class="span3"></div>
     </div><!--END grid-->
     
+	<!--
     <div class="row">
         <div class="span6">
           <h2>演讲日程</h2>
@@ -148,4 +156,5 @@
           </ol>
         </div>
       </div>
+			  -->
 {{end}}
